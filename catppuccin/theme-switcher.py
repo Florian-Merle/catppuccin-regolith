@@ -72,7 +72,7 @@ def main(argv):
             if line.startswith("gtk.theme_name:"):
                 flavour = args.flavour.capitalize()
                 # TODO: replace this with {args.accent}, once GTK has all accents
-                lines[i] = f"gtk.theme_name: Catppuccin-{flavour}\n"
+                # lines[i] = f"gtk.theme_name: Catppuccin-{flavour}\n"
 
     with open(FILE_PATH, "w") as file:
         file.writelines(lines)

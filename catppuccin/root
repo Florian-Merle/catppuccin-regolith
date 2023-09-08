@@ -27,12 +27,12 @@ regolith.compositor.picom.config: /usr/share/regolith-look/catppuccin/picom.conf
 ! --------------------------------------------
 ! -- Selected Flavour
 ! --------------------------------------------
-#include "/usr/share/regolith-look/catppuccin/config/mocha"
+#include "/usr/share/regolith-look/catppuccin/config/frappe"
 
 ! --------------------------------------------
 ! -- Selected accent you want to use
 ! --------------------------------------------
-#define color_accent      color_blue
+#define color_accent      color_sky
 
 
 ! --------------------------------------------
